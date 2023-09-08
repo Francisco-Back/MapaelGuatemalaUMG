@@ -1,0 +1,46 @@
+html{
+   /* background-color: #5d5d5d;*/
+}
+
+body {
+    color: #5d5d5d;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.Titulo {
+    color: #000;
+align-items: center; 
+text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.mapael .map {
+    position: relative;
+}
+
+.mapael .mapTooltip {
+    position: absolute;
+    background-color: #fff;
+    moz-opacity: 0.70;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+    display: none;
+    color: #343434;
+}
+/*Nota descripcion*/
+.descrip{
+
+    border: 5px solid red;
+}
