@@ -1,0 +1,93 @@
+{
+    "RegionAlimentos": [
+      {
+        "Región": "El Progreso",
+        "Alimento": "100"
+      },
+      {
+        "Región": "Santa Rosa",
+        "Alimento": "87"
+      },
+      {
+        "Región": "Alta Verapaz",
+        "Alimento": "80"
+      },
+      {
+        "Región": "Jutiapa",
+        "Alimento": "78"
+      },
+      {
+        "Región": "San Marcos",
+        "Alimento": "77"
+      },
+      {
+        "Región": "Zacapa",
+        "Alimento": "75"
+      },
+      {
+        "Región": "Totonicapán",
+        "Alimento": "75"
+      },
+      {
+        "Región": "Izabal",
+        "Alimento": "72"
+      },
+      {
+        "Región": "Petén",
+        "Alimento": "72"
+      },
+      {
+        "Región": "Chiquimula",
+        "Alimento": "72"
+      },
+      {
+        "Región": "Huehuetenango",
+        "Alimento": "71"
+      },
+      {
+        "Región": "Escuintla",
+        "Alimento": "71"
+      },
+      {
+        "Región": "Quiché",
+        "Alimento": "69"
+      },
+      {
+        "Región": "Guatemala",
+        "Alimento": "69"
+      },
+      {
+        "Región": "Sacatepéquez",
+        "Alimento": "69"
+      },
+      {
+        "Región": "Baja Verapaz",
+        "Alimento": "68"
+      },
+      {
+        "Región": "Sololá",
+        "Alimento": "67"
+      },
+      {
+        "Región": "Chimaltenango",
+        "Alimento": "67"
+      },
+      {
+        "Región": "Jalapa",
+        "Alimento": "66"
+      },
+      {
+        "Región": "Quetzaltenango",
+        "Alimento": "64"
+      },
+      {
+        "Región": "Suchitepéquez",
+        "Alimento": "64"
+      },
+      {
+        "Región": "Retalhuleu",
+        "Alimento": "61"
+      }
+    ]
+  }
+  

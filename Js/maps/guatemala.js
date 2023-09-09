@@ -87,15 +87,15 @@ $(function () {
                 title: "Población de Guatemala por departamento",
                 slices: [
                     {
-                        max: 300000,
+                        max: 20,
                         attrs: {
                             fill: "#97e766"
                         },
                         label: "Menos de 300.000 habitantes"
                     },
                     {
-                        min: 300000,
-                        max: 500000,
+                        min: 40,
+                        max: 60,
                         attrs: {
                             fill: "#7fd34d"
                         },
@@ -103,15 +103,15 @@ $(function () {
                         
                     },
                     {
-                        min: 500000,
-                        max: 1000000,
+                        min: 50,
+                        max: 80,
                         attrs: {
                             fill: "#5faa32"
                         },
                         label: "Entre 500.000 y 1.000.000 de habitantes"
                     },
                     {
-                        min: 1000000,
+                        min: 100,
                         attrs: {
                             fill: "#3f7d1a"
                         },
@@ -121,136 +121,136 @@ $(function () {
             }
         }, areas: {
             "GT-QC": {
-                value: "2617939",
+                value: "20",
                 href: "#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-QC, QUICHE</span><br />Population : 2617939"}
             },
             "GT-ZA":{
-                value: "256497",
+                value: "5",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-ZA, ZACAPA</span><br />Population : 2617939"}
 
             },
             "GT-JU":{
-                value: "1321313",
+                value: "50",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-JU, JUTIAPA</span><br />Population : 2617939"}
 
             },
             "GT-JA":{
-                value: "1321313",
+                value: "80",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-JA, JALAPA</span><br />Population : 2617939"}
 
             },
             "GT-CQ":{
-                value: "1321313",
-                href:"#",
+                value: "100",
+                href:"Informacion.html",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-CQ, CHIQUIMULA</span><br />Population : 2617939"}
 
             },
             "GT-IZ":{
-                value: "1321313",
-                href:"#",
+                value: "80",
+                href:"Informacion.html",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-IZ, IZABAL</span><br />Population : 2617939"}
 
             },  
              "GT-SR":{
-                value: "1321313",
+                value: "40",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-SR, SANTA ROSA</span><br />Population : 2617939"}
 
             },
             "GT-PR":{
-                value: "1321313",
+                value: "80",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-PR, EL PROGRESO</span><br />Population : 2617939"}
 
             },  
              "GT-TO":{
-                value: "256497",
+                value: "10",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-TO, TOTONICAPAN</span><br />Population : 2617939"}
 
             },
             "GT-SO":{
-                value: "256497",
+                value: "20",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-SO, SOLOLA</span><br />Population : 2617939"}
 
             },
             "GT-SA":{
-                value: "256497",
+                value: "100",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-SA, SACATEPEQUEZ</span><br />Population : 2617939"}
 
             },
             "GT-SU":{
-                value: "256497",
+                value: "5",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-SU, SUCHITEPEQUEZ</span><br />Population : 2617939"}
 
             },
             "GT-GU":{
-                value: "256497",
+                value: "10",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-GU, GUATEMALA</span><br />Population : 2617939"}
 
             },
             "GT-ES":{
-                value: "256497",
+                value: "45",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-ES, ESCUINTLA</span><br />Population : 2617939"}
 
             },
             "GT-CM":{
-                value: "256497",
+                value: "55",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-CM, CHIMALTENANGO</span><br />Population : 2617939"}
 
             },
             "GT-AV":{
-                value: "256497",
+                value: "65",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-AV, ALTA VERAPAZ</span><br />Population : 2617939"}
 
             },
             "GT-SM":{
-                value: "256497",
+                value: "75",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-SM, SAN MARCOS</span><br />Population : 2617939"}
 
             },
             "GT-RE":{
-                value: "256497",
+                value: "45",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-RE, RETALHULEU</span><br />Population : 2617939"}
 
             },
             "GT-PE":{
-                value: "256497",
+                value: "65",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-PE, PETEN</span><br />Population : 2617939"}
 
             },
             "GT-QZ":{
-                value: "256497",
+                value: "10",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-QZ, QUETZALTENGO</span><br />Population : 2617939"}
 
             },
             "GT-HU":{
-                value: "256497",
+                value: "100",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-HU, HUEHUETENANGO</span><br />Population : 2617939"}
 
             },
             "GT-BV":{
-                value: "256497",
+                value: "10",
                 href:"#",
                 tooltip: {content: "<span style=\"font-weight:bold;\">GT-BV, BAJA VERAPAZ</span><br />Population : 2617939"}
 
-            },
+            }
 
 
 
