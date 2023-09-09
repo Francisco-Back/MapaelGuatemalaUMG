@@ -1,3 +1,20 @@
+const url = 'https://mapaelguatemalaumg2023-default-rtdb.firebaseio.com/RegionAlimentos.json';
+
+// Realizamos una solicitud GET usando fetch
+fetch(url)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error al obtener los datos');
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Procesamos los datos
+    console.log('Datos obtenidos:', data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
 
 document.addEventListener('DOMContentLoaded', function() {
    
