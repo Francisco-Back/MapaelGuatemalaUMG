@@ -7,15 +7,39 @@
     <link rel="stylesheet" href="Css/Styles.css" >
     <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
     <script src="Js/DataBackend/BackendData.js" charset="utf-8"></script>
-   
+    <script>
+        // Número de veces que deseas repetir la estructura
+        document.addEventListener('DOMContentLoaded', function() {
+  // Tu código aquí
+
+        // Elemento padre al que agregarás las repeticiones
+        var contenedor = document.querySelector('.contenedor');
+
+        for (var i = 1; i <= 2; i++) {
+            console.log('Script ejecutado');
+            // Crear el elemento div con la clase "Grafico"
+            var nuevoDiv = document.createElement('div');
+            nuevoDiv.className = 'Grafico';
+
+            // Crear el elemento canvas con la clase "Cuadros" y un ID único
+            var nuevoCanvas = document.createElement('canvas');
+            nuevoCanvas.className = 'Cuadros';
+            nuevoCanvas.id = 'miGrafico' + i;
+
+            // Agregar el canvas al div "Grafico"
+            nuevoDiv.appendChild(nuevoCanvas);
+
+            // Agregar el div "Grafico" al contenedor
+            contenedor.appendChild(nuevoDiv);
+        }
+    });
+
+    </script>
 
 </head>
 <body>
-    <canvas class="Cuadros" id="miGrafico" height="100px"></canvas>
-
-    <h1 id="app">hola</h1>
-
-    <canvas class="Cuadros" id=""  height="100px"></canvas>
+    <div class="contenedor"></div>
+ 
 
 </body>
-</html>
+</html> 
