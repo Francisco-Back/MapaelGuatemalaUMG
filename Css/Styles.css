@@ -1,6 +1,3 @@
-html{
-   /* background-color: #5d5d5d;*/
-}
 
 body {
     color: #5d5d5d;
@@ -29,7 +26,7 @@ h1 {
 .mapael .mapTooltip {
     position: absolute;
     background-color: #fff;
-    moz-opacity: 0.70;
+   /* moz-opacity: 0.70;*/
     opacity: 0.70;
     filter: alpha(opacity=70);
     border-radius: 10px;
@@ -40,15 +37,6 @@ h1 {
     color: #343434;
 }
 /*Nota descripcion*/
-.descrip{
-
-  /*  border: 5px solid red;*/
-}
-
-
-.Cuadros{
-    
-}
 .Grafico{
     flex: 1; /* Hace que los cuadros ocupen el mismo espacio */
     height: 5%; /* Altura fija (puedes ajustarla según tus necesidades) */
