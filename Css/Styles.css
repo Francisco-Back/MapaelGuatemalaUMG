@@ -42,7 +42,7 @@ h1 {
 /*Nota descripcion*/
 .descrip{
 
-    border: 5px solid red;
+  /*  border: 5px solid red;*/
 }
 
 
@@ -51,18 +51,29 @@ h1 {
 }
 .Grafico{
     flex: 1; /* Hace que los cuadros ocupen el mismo espacio */
-    height: 200px; /* Altura fija (puedes ajustarla según tus necesidades) */
+    height: 5%; /* Altura fija (puedes ajustarla según tus necesidades) */
    
-    margin: 10px; /* Margen entre los cuadros */
+    margin: 2%; /* Margen entre los cuadros */
 }
+
 .contenedor {
-    border: 5px solid red;
+   /* border: 5px solid red;*/
     display: flex;
     justify-content: space-between; /* Espacio entre los cuadros */
+  }
+  .contenedor2{
+/*margin-top: 1%;*/
+    display: flex;
+    justify-content: space-between; /* Espacio entre los cuadros */
+
   }
 
   @media (max-width: 768px) {
     .contenedor {
       flex-direction: column; /* Cambia a una disposición de columna en pantallas pequeñas */
     }
+    .contenedor2{
+        flex-direction: column; /* Cambia a una disposición de columna en pantallas pequeñas */
+    }
+
     }

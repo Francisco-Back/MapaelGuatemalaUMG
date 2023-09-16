@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
           data: {
               labels: regiones, // Las etiquetas serán las regiones
               datasets: [{
-                  label: 'Puntuación',
+                  label: 'Alimentos',
                   data: puntuaciones, // Los datos serán las puntuaciones
                   backgroundColor: 'rgba(75, 192, 192, 0.2)',
                   borderColor: 'rgba(75, 192, 192, 1)',
@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
               }
           }
       });
+      
+
+      
     })
     .catch(error => {
       console.error('Error:', error);
@@ -43,27 +46,69 @@ document.addEventListener('DOMContentLoaded', function() {
   .then(data => {
     var regiones = data.map(item => item.Región);
     var puntuaciones = data.map(item => parseInt(item.Alimento));
-    var miGrafico2 = new Chart(ctx, {
-        type: 'bar',
+    var ctx2 = document.getElementById('miGrafico2');
+    var miGrafico2 = new Chart(ctx2, {
+        type: 'line',
         data: {
-            labels: regiones, // Las etiquetas serán las regiones
+            labels: regiones,
             datasets: [{
-                label: 'Puntuación',
-                data: puntuaciones, // Los datos serán las puntuaciones
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                label: 'ComidaRapida',
+                data: puntuaciones,
                 borderColor: 'rgba(75, 192, 192, 1)',
-                borderWidth: 1
+                borderWidth: 1,
+                fill: false
             }]
         },
         options: {
             scales: {
                 y: {
                     beginAtZero: true,
-                    max: 100 // Esto puede ajustarse según el rango de puntuaciones
+                    max: 100
                 }
             }
         }
     });
+    var ctx3 = document.getElementById('miGrafico3');
+var miGrafico3 = new Chart(ctx3, {
+    type: 'pie',
+    data: {
+        labels: regiones,
+        datasets: [{
+            label: 'Peluquerias',
+            data: puntuaciones,
+            backgroundColor: [
+              'red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink',
+              'brown', 'gray', 'cyan', 'teal', 'lime', 'indigo', 'violet', 
+              'magenta', 'lightblue', 'lightgreen', 'salmon', 'lightcoral',
+              'gold', 'lightpink', 'lightgray'
+            ]
+        }]
+    }
+});
+var ctx4 = document.getElementById('miGrafico4');
+var miGrafico = new Chart(ctx4, {
+    type: 'radar',
+    data: {
+        labels: regiones, // Las etiquetas serán las regiones
+        datasets: [{
+            label: 'Pizzas',
+            data: puntuaciones, // Los datos serán las puntuaciones
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1,
+            fill: true
+        }]
+    },
+    options: {
+        scales: {
+            r: {
+                beginAtZero: true,
+                max: 100 // Esto puede ajustarse según el rango de puntuaciones
+            }
+        }
+    }
+});
+
   })
   .catch(error => {
     console.error('Error:', error);

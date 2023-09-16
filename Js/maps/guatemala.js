@@ -91,7 +91,7 @@ $(function () {
                         attrs: {
                             fill: "#97e766"
                         },
-                        label: "Menos de 300.000 habitantes"
+                        label: "Menos de 20 Busquedas"
                     },
                     {
                         min: 40,
@@ -99,7 +99,7 @@ $(function () {
                         attrs: {
                             fill: "#7fd34d"
                         },
-                        label: "Entre 100.000 y 500.000 habitantes"
+                        label: "Entre 30 y 50 Busquedas"
                         
                     },
                     {
@@ -108,147 +108,147 @@ $(function () {
                         attrs: {
                             fill: "#5faa32"
                         },
-                        label: "Entre 500.000 y 1.000.000 de habitantes"
+                        label: "Entre 60 y 80  Busquedas"
                     },
                     {
                         min: 100,
                         attrs: {
                             fill: "#3f7d1a"
                         },
-                        label: "Más de 1 millón de habitantes"
+                        label: "Más de 100 Busquedas"
                     }
                 ]
             }
         }, areas: {
             "GT-QC": {
                 value: "20",
-                href: "#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-QC, QUICHE</span><br />Population : 2617939"}
+                href: "Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-QC, QUICHE</span><br />Busquedas : 20"}
             },
             "GT-ZA":{
                 value: "5",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-ZA, ZACAPA</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-ZA, ZACAPA</span><br />Busquedas : 5"}
 
             },
             "GT-JU":{
                 value: "50",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-JU, JUTIAPA</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-JU, JUTIAPA</span><br />Busquedas : 50"}
 
             },
             "GT-JA":{
                 value: "80",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-JA, JALAPA</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-JA, JALAPA</span><br />Busquedas : 80"}
 
             },
             "GT-CQ":{
                 value: "100",
                 href:"Informacion.html",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-CQ, CHIQUIMULA</span><br />Population : 2617939"}
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-CQ, CHIQUIMULA</span><br />Busquedas : 100"}
 
             },
             "GT-IZ":{
                 value: "80",
                 href:"Informacion.html",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-IZ, IZABAL</span><br />Population : 2617939"}
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-IZ, IZABAL</span><br />Busquedas : 80"}
 
             },  
              "GT-SR":{
                 value: "40",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SR, SANTA ROSA</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SR, SANTA ROSA</span><br />Busquedas : 40"}
 
             },
             "GT-PR":{
                 value: "80",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-PR, EL PROGRESO</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-PR, EL PROGRESO</span><br />Busquedas : 80"}
 
             },  
              "GT-TO":{
                 value: "10",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-TO, TOTONICAPAN</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-TO, TOTONICAPAN</span><br />Busquedas : 10"}
 
             },
             "GT-SO":{
                 value: "20",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SO, SOLOLA</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SO, SOLOLA</span><br />Busquedas : 20"}
 
             },
             "GT-SA":{
                 value: "100",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SA, SACATEPEQUEZ</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SA, SACATEPEQUEZ</span><br />Busquedas : 100"}
 
             },
             "GT-SU":{
                 value: "5",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SU, SUCHITEPEQUEZ</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SU, SUCHITEPEQUEZ</span><br />Busquedas : 5"}
 
             },
             "GT-GU":{
-                value: "10",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-GU, GUATEMALA</span><br />Population : 2617939"}
+                value: "100",
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-GU, GUATEMALA</span><br />Busquedas : 100"}
 
             },
             "GT-ES":{
                 value: "45",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-ES, ESCUINTLA</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-ES, ESCUINTLA</span><br />Busquedas : 45"}
 
             },
             "GT-CM":{
                 value: "55",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-CM, CHIMALTENANGO</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-CM, CHIMALTENANGO</span><br />Busquedas : 55"}
 
             },
             "GT-AV":{
                 value: "65",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-AV, ALTA VERAPAZ</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-AV, ALTA VERAPAZ</span><br />Busquedas : 65"}
 
             },
             "GT-SM":{
                 value: "75",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SM, SAN MARCOS</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-SM, SAN MARCOS</span><br />Busquedas : 75"}
 
             },
             "GT-RE":{
                 value: "45",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-RE, RETALHULEU</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-RE, RETALHULEU</span><br />Busquedas : 45"}
 
             },
             "GT-PE":{
                 value: "65",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-PE, PETEN</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-PE, PETEN</span><br />Busquedas : 65"}
 
             },
             "GT-QZ":{
                 value: "10",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-QZ, QUETZALTENGO</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-QZ, QUETZALTENGO</span><br />Busquedas : 10"}
 
             },
             "GT-HU":{
                 value: "100",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-HU, HUEHUETENANGO</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-HU, HUEHUETENANGO</span><br />Busquedas : 100"}
 
             },
             "GT-BV":{
                 value: "10",
-                href:"#",
-                tooltip: {content: "<span style=\"font-weight:bold;\">GT-BV, BAJA VERAPAZ</span><br />Population : 2617939"}
+                href:"Informacion.html",
+                tooltip: {content: "<span style=\"font-weight:bold;\">GT-BV, BAJA VERAPAZ</span><br />Busquedas : 10"}
 
             }
 
