@@ -61,6 +61,7 @@ h1 {
       flex-direction: column; /* Cambia a una disposición de columna en pantallas pequeñas */
     }
     .contenedor2{
+        
         flex-direction: column; /* Cambia a una disposición de columna en pantallas pequeñas */
     }
 
